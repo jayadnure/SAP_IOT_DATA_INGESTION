@@ -1,0 +1,19 @@
+{
+  "name": "pushdata",
+  "version": "1.0.0",
+  "description": "This project help to push data",
+  "main": "./Utlis/PushMQTT.js",
+  "scripts": {
+    "test": "node ./Utlis/PushMQTT.js",
+    "start": "node ./Utlis/PushMQTT.js"
+  },
+  "author": "Jay Adnure",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "https": "^1.0.0",
+    "mqtt": "^4.1.0",
+    "prompt": "^1.0.0",
+    "random-number": "0.0.9"
+  }
+}
